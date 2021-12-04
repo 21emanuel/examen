@@ -1,0 +1,29 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; /* 1º Hack para que 1rem = 10px */
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.6rem; /* 2º Hack para la base sea de 16px */
+  line-height: 2; /* Separación entre los párrafos de un texto */
+}
+
+.margen {
+  margin: 2.8rem;
+}
+
+.cuadrilla {
+  display: grid;
+}
+
+.cuadrilla2 {
+  display: grid;
+  grid-template-columns: 0.17fr 0.5fr;
+}

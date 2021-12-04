@@ -1,0 +1,48 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; /* 1º Hack para que 1rem = 10px */
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.6rem; /* 2º Hack para la base sea de 16px */
+  line-height: 2; /* Separación entre los párrafos de un texto */
+}
+
+.contenedor {
+  margin: 4rem;
+}
+
+.separar {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 8.4rem;
+}
+
+.fila {
+  display: flex;
+  flex-direction: column;
+}
+
+.centrar-imagen {
+  display: flex;
+  justify-content: center;
+  margin-top: 8.4rem;
+  margin-top: 96px;
+  margin-bottom: 74px;
+}
+
+.meter {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  margin-top: 96px;
+  
+}
+
